@@ -15,6 +15,7 @@ class Cube {
   public:  // Public members:
     double getVolume();
     double getSurfaceArea();
+    double getLength();
     void setLength(double length);
 
   private: // Private members:

@@ -13,8 +13,10 @@ int main() {
   Cube c;
 
   c.setLength(100);
+  double length = c.getLength();
+
   double volume = c.getVolume();
-  std::cout << "Volume: " << volume << std::endl;
+  std::cout << "Volume: " << volume << ", length = " << length << std::endl;
 
   return 0;
 }
