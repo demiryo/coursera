@@ -21,7 +21,7 @@ int main() {
 
   cout << &y << endl;
   cout << y << endl;
-  // cout << *y << endl;
+  // cout << *y << endl;  error: invalid type argument of unary ‘*’ (have ‘int’)
 
   return 0;
 }
